@@ -1,0 +1,43 @@
+.Navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: .8em 2em .8em 2em;
+    width: 70%;
+    margin: auto;
+    margin-top: 1em;
+    box-sizing: border-box;
+    z-index: 1;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 2.65546px 95px rgba(0, 0, 0, 0.1);
+    border-bottom: none;
+    border-radius: 25px;
+  
+    h3 {
+      margin: 0;
+    }
+  
+    .Links {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+  
+      a {
+        margin-right: 1.5em;
+        display: inline-block;
+        outline: none;
+        text-decoration: none;
+        color: #000000;
+      }
+    }
+  
+    @media screen and (max-width: 700px) {
+      box-shadow: none;
+      width: 100%;
+      padding: .5em;
+  
+      .Links a{
+        margin-right: .5em;
+      }
+    }
+  }
+  

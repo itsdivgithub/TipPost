@@ -1,0 +1,52 @@
+.ModalInfo {
+padding: 1em 2em;
+}
+.PostbarDivHolder{
+    max-width: 600px;
+    margin: auto;
+}
+.ButtonGroupSave{
+display: flex;
+align-items: center;
+justify-content: space-evenly;
+}
+.removeBoxShadow{
+    outline: none !important;
+    box-shadow: none !important;
+    outline-offset: none !important;
+}
+.removeBoxShadow:focus{
+    border: 1px solid #D1D7DC !important;
+}
+.displayFlex{
+    display: flex;
+    align-items: center;
+    gap: 0.5em;
+}
+.bannerDiv{
+    border: 2px dotted #D1D7DC;
+   display: flex;
+   flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 201px;
+    width: 100%;
+    cursor: pointer;
+}
+.buttonFIX{
+        outline: none;
+        border: none;
+        border-radius: 30px;
+        background-color: rgb(13,118,252);
+        color: #ffffff;
+        padding: 0.8em;
+        cursor: pointer;
+        font-size: 0.9em;
+        cursor: pointer;
+        width:30%;
+    
+        &.disabled {
+          background-color: #bfa0f2;
+          cursor: not-allowed;
+        }
+}

@@ -1,0 +1,16 @@
+.PostbarDivHolder{
+    max-width: 600px;
+    margin: 3em auto;
+}
+.TipSection{
+    display: flex;
+    gap: 1em;
+}
+.removeBoxShadow{
+    outline: none !important;
+    box-shadow: none !important;
+    outline-offset: none !important;
+}
+.removeBoxShadow:focus{
+    border: 1px solid #D1D7DC !important;
+}

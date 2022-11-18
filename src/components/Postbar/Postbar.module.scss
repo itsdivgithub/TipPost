@@ -1,0 +1,51 @@
+.Postbarborder{
+ border: 2px solid rgb(92, 100, 111);
+    border-radius: 20px;
+    margin-bottom: 1.5em;
+    min-height: 100px;
+    z-index: 0;
+    cursor: pointer;
+    box-shadow: 0 0 #0000, 0 0 #0000, 0 2.65546px 95px rgba(0, 0, 0, 0.1);
+
+    .PostbarDetails{
+        padding: 1em;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 1em;
+
+        .button {
+            outline: none;
+            border: none;
+            border-radius: 12px;
+            background-color: rgb(13,118,252);
+            color: #ffffff;
+            padding: 0.5em 0.8em;
+            cursor: pointer;
+            font-size: 0.9em;
+            cursor: pointer;
+            margin: 0.1em;
+            &disabled {
+              background-color: #bfa0f2;
+              cursor: not-allowed;
+            }
+          }
+
+          .postAndDesc{
+             display: flex;
+             flex-direction: column;
+             align-items: flex-start;
+             width: 80%;
+        }
+
+    }
+}
+
+.button:hover {
+  transition: margin 0.5s ease-in-out;
+    transform:scale(1.08,1.08);
+    -webkit-transform:scale(1.08,1.08);
+    -moz-transform:scale(1.08,1.08);
+}
+
+

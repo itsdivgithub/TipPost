@@ -1,0 +1,15 @@
+{
+  "short_name": "TIP POST",
+  "name": "Tip Post",
+  "icons": [
+    {
+      "src": "translogo.png",
+      "type": "image/png",
+      "sizes": "256x98"
+    }
+  ],
+  "start_url": ".",
+  "display": "standalone",
+  "theme_color": "#000000",
+  "background_color": "#ffffff"
+}
